@@ -1,0 +1,45 @@
+/* Product Card Container */
+.product-card {
+  border: 1px solid #ddd; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  overflow: hidden; /* Hide overflowing content */
+  background-color: #fff; /* Background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+  transition: box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Product Image */
+.product-image {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure image is block-level element */
+}
+
+/* Product Details */
+.product-details {
+  padding: 20px; /* Padding inside the card */
+}
+
+/* Product Name */
+.product-name {
+  margin: 0; /* Remove default margin */
+  font-size: 1.2rem; /* Larger font size */
+  color: #333; /* Text color */
+}
+
+/* Product Description */
+.product-description {
+  color: #666; /* Text color */
+}
+
+/* Product Price */
+.product-price {
+  margin-top: 10px; /* Space between description and price */
+  font-weight: bold; /* Bold font weight */
+  color: #007bff; /* Price color */
+}
+
+/* Hover Effect */
+.product-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Increase box shadow on hover */
+}
